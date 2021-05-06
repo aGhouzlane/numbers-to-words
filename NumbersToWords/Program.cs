@@ -1,4 +1,5 @@
 ﻿using System;
+using NumbersToWords.Models;
 
 namespace NumbersToWords
 {
@@ -6,7 +7,8 @@ namespace NumbersToWords
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      NumberConverter numbers = new NumberConverter(88);
+
     }
   }
 }
