@@ -1,12 +1,17 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ToDoList.Models;
+using NumbersToWords;
 
-namespace ToDoList.Tests
+namespace NumbersToWords.ModelTests
 {
   [TestClass]
-  public class ItemTests
+  public class NumbersToWordsTests
   {
     // Test methods will go here.
+    [TestMethod]
+    public void GetDescription_ReturnsDescription_String()
+    {
+
+    }
 
   }
 }
