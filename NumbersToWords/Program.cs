@@ -8,7 +8,7 @@ namespace NumbersToWords
     static void Main(string[] args)
     {
       NumberConverter numbers = new NumberConverter(88);
-
+      numbers.ConvertToWords();
     }
   }
 }
